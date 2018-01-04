@@ -71,6 +71,7 @@ if __name__ == '__main__':
             counter = 26
             for _ in range(0,26+1):
                 print("For key %d text is %s" % (counter, caesar(message, _)))
+                counter = counter - 1
     else:
         while True:
             key = input('Please put key if you have it:')
